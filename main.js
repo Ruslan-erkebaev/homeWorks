@@ -48,10 +48,22 @@
 // }
 
 // Задача 6
-let string = ``;
-let count = 0;
-while (count < 10) {
-  string = string + "*";
-  count++;
-  console.log(string);
+// let string = ``;
+// let count = 0;
+// while (count < 10) {
+//   string = string + "#";
+//   count++;
+//   console.log(string);
+// }
+
+let output = ``;
+for (let i = 1; i <= 10; i++) {
+  for (j = 1; j <= 10; j++) {
+    output += "" + i * j;
+    if (i * j < 11) {
+      output += "";
+    }
+  }
+  console.log(output);
+  output = ``;
 }
