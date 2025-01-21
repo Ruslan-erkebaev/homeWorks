@@ -1,4 +1,4 @@
-// Задача 1
+// / Задача 1
 // let num = 0;
 // while (num <= 100) {
 //     console.log(num);
@@ -56,14 +56,17 @@
 //   console.log(string);
 // }
 
-let output = ``;
-for (let i = 1; i <= 10; i++) {
-  for (j = 1; j <= 10; j++) {
-    output += "" + i * j;
-    if (i * j < 11) {
-      output += "";
-    }
-  }
-  console.log(output);
-  output = ``;
-}
+// let string = '';
+// let count = 0;
+// while (count < 6) {
+//   let belgi = 0;
+//   while (belgi < 5) {
+//     string = string + "*";
+//     belgi++;
+//   }
+//   string = string + "\n";
+
+// count++;
+// }
+// console.log(string);
+
